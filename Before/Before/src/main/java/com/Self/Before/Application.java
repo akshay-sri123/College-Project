@@ -11,21 +11,15 @@ import com.datatorrent.api.DAG;
 import com.datatorrent.api.DAG.Locality;
 import com.datatorrent.lib.io.ConsoleOutputOperator;
 
-@ApplicationAnnotation(name="MyFirstApplication")
+@ApplicationAnnotation(name="Before")
 public class Application implements StreamingApplication
 {
-
   @Override
   public void populateDAG(DAG dag, Configuration conf)
   {
-    // Sample DAG with 2 operators
-    // Replace this code with the DAG you want to build
+      Generator generator = dag.addOperator("Generator", new Generator());
+      ConsoleOutputOperator outputOperator = dag.addOperator("Console", new ConsoleOutputOperator());
 
-    RandomNumberGenerator randomGenerator = dag.addOperator("randomGenerator", RandomNumberGenerator.class);
-    randomGenerator.setNumTuples(500);
-
-    ConsoleOutputOperator cons = dag.addOperator("console", new ConsoleOutputOperator());
-
-    dag.addStream("randomData", randomGenerator.out, cons.input).setLocality(Locality.CONTAINER_LOCAL);
+      dag.addStream("Generated data", generator.outputPort, outputOperator.input);
   }
 }

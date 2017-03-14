@@ -1,2 +1,8 @@
 com/Self/Before/Application.class
-com/Self/Before/RandomNumberGenerator.class
+com/Self/Before/RandomEnumGenerator.class
+com/Self/Before/Publisher.class
+com/Self/Before/Generator.class
+com/Self/Before/AdInfo.class
+com/Self/Before/Location.class
+com/Self/Before/Advertiser.class
+com/Self/Before/RandomValueGenerator.class

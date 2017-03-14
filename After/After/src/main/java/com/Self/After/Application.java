@@ -12,7 +12,7 @@ import com.datatorrent.api.DAG.Locality;
 import com.datatorrent.lib.io.ConsoleOutputOperator;
 
 @ApplicationAnnotation(name="MyFirstApplication")
-public class Application implements StreamingApplication
+public class  Application implements StreamingApplication
 {
 
   @Override
