@@ -1,0 +1,1 @@
+{"attributes":{"APPLICATION_PATH":"file:\/home\/akshay\/Documents\/College-Project\/Before\/Before\/target\/com.datatorrent.stram.StramLocalCluster","STREAMING_WINDOW_SIZE_MILLIS":500,"STORAGE_AGENT":"com.datatorrent.common.util.AsyncFSStorageAgent@672586a0","APPLICATION_NAME":"Before","APPLICATION_ID":"app_local_1489491194732","CHECKPOINT_WINDOW_COUNT":60},"metrics":{}}

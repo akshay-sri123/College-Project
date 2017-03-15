@@ -3,12 +3,12 @@
  */
 package com.Self.Before;
 
+import com.Self.Before.main.Generator;
 import org.apache.hadoop.conf.Configuration;
 
 import com.datatorrent.api.annotation.ApplicationAnnotation;
 import com.datatorrent.api.StreamingApplication;
 import com.datatorrent.api.DAG;
-import com.datatorrent.api.DAG.Locality;
 import com.datatorrent.lib.io.ConsoleOutputOperator;
 
 @ApplicationAnnotation(name="Before")
