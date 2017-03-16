@@ -24,8 +24,7 @@ public class Intermediate extends BaseOperator implements InputOperator
 		this.metrics = metrics;
 		this.schema = schema;
 	}
-	
-	public final DefaultOutputPort<EntryField> outputPort = new DefaultOutputPort<>();
+	public final DefaultOutputPort<String> outputPort = new DefaultOutputPort<>();
 	public final DefaultInputPort<AdInfo> inputPort = new DefaultInputPort<AdInfo>() {
 		@Override
 		public void process(AdInfo adInfo) {
@@ -48,17 +47,17 @@ public class Intermediate extends BaseOperator implements InputOperator
 				valRow = coder.encoder(schema.valueSchema, adInfo);
 				entryField = new EntryField(keyRow,valRow);
 				
+				outputPort.emit(adInfo.toString());
+				
 			} catch (Exception e) {
 				e.printStackTrace();}
 		}
 	};
 	
-	public void init() throws NoSuchFieldException, IllegalAccessException {
-		
-	}
+//	public final DefaultOutputPort<EntryField> outputPort = new DefaultOutputPort<>();
+	
 	
 	public void emitTuples()
 	{
-		outputPort.emit(entryField);
 	}
 }

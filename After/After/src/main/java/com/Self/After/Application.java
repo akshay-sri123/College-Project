@@ -53,19 +53,19 @@ public class  Application implements StreamingApplication
     Generator generator = dag.addOperator("Generator", new Generator());
     
     Intermediate intermediate = dag.addOperator("Intermediate", new Intermediate(rowMeta, metrics, schema));
-    try {intermediate.init();}
-    catch (Exception e) {e.printStackTrace();}
     
-    Aggregation aggregation = dag.addOperator("Aggregation", new Aggregation(metrics,schema));
-    
-    Output output = dag.addOperator("Output", new Output(schema));
+//    Aggregation aggregation = dag.addOperator("Aggregation", new Aggregation(metrics,schema));
+//
+//    Output output = dag.addOperator("Output", new Output(schema));
     
     ConsoleOutputOperator consoleOutputOperator = dag.addOperator("Console", new ConsoleOutputOperator());
     
+//    dag.addStream("First", generator.outputPort, intermediate.inputPort);
+//    dag.addStream("Second", intermediate.outputPort, aggregation.inputPort);
+//    dag.addStream("Third", aggregation.outputPort, output.inputPort);
+//    dag.addStream("Fourth", output.outputPort, consoleOutputOperator.input);
     dag.addStream("First", generator.outputPort, intermediate.inputPort);
-    dag.addStream("Second", intermediate.outputPort, aggregation.inputPort);
-    dag.addStream("Third", aggregation.outputPort, output.inputPort);
-    dag.addStream("Fourth", output.outputPort, consoleOutputOperator.input);
+    dag.addStream("Second", intermediate.outputPort, consoleOutputOperator.input);
   
   }
 }

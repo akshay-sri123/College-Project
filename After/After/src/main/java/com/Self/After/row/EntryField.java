@@ -24,4 +24,12 @@ public class EntryField {
 	public void setValRow(Row valRow) {
 		this.valRow = valRow;
 	}
+	
+	@Override
+	public String toString() {
+		return "EntryField{" +
+				"keyRow=" + keyRow +
+				", valRow=" + valRow +
+				'}';
+	}
 }
