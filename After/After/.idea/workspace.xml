@@ -2,21 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f196af-4046-42c0-8651-42da9def9cc6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/main/Aggregation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/main/Result.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/other/AggregatorSet.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/RandomNumberGenerator.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/deps/log4j-1.2.17.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/deps/servlet-api-2.5.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/After-1.0-SNAPSHOT.apa" afterPath="$PROJECT_DIR$/target/After-1.0-SNAPSHOT.apa" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/After-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/After-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/Application.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/operations/Operations$1.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/operations/Operations$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/operations/Operations.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/operations/Operations.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/main/Agg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/AdInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/Advertiser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/Generator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/Location.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/Publisher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/RandomEnumGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/RandomNumberGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/RandomValueGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/aggregations/Aggregation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/aggregations/AggregationSchema.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/aggregations/AggregationTypes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/com.datatorrent.stram.StramLocalCluster/.containers_1.json.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/com.datatorrent.stram.StramLocalCluster/.meta.json.1095849835766.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/com.datatorrent.stram.StramLocalCluster/.operators_1.json.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/._tmp.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/ffffffffffffffff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/com.datatorrent.stram.StramLocalCluster/checkpoints/2/._tmp.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/com.datatorrent.stram.StramLocalCluster/checkpoints/2/ffffffffffffffff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/com.datatorrent.stram.StramLocalCluster/containers_1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/com.datatorrent.stram.StramLocalCluster/meta.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/com.datatorrent.stram.StramLocalCluster/operators_1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/deps/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/deps/servlet-api-2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/surefire-reports/TEST-com.Self.Before.ApplicationTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Before/Before/target/surefire-reports/com.Self.Before.ApplicationTest.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/target/Before-1.0-SNAPSHOT.apa" afterPath="$PROJECT_DIR$/../../Before/Before/target/Before-1.0-SNAPSHOT.apa" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/target/Before-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../../Before/Before/target/Before-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/Application.class" afterPath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/Application.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/row/DataType.class" afterPath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/row/DataType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/row/RowMeta.class" afterPath="$PROJECT_DIR$/../../Before/Before/target/classes/com/Self/Before/row/RowMeta.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/Generator.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/Generator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/Intermediate.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/Intermediate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/operations/Operations.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/operations/Operations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Before/Before/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Before/Before/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/Before.iml" afterPath="$PROJECT_DIR$/../../Before/Before/Before.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/Application.java" afterPath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/main/Generator.java" afterPath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/main/Generator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/other/AdInfo.java" afterPath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/other/AdInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/other/Aggregator.java" afterPath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/other/Aggregator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/other/AggregatorById.java" afterPath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/other/AggregatorById.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/other/IdFactory.java" afterPath="$PROJECT_DIR$/../../Before/Before/src/main/java/com/Self/Before/other/IdFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/../../Before/Before/target/antrun/build-main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/target/classes/Before-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/../../Before/Before/target/classes/Before-1.0-SNAPSHOT-javadoc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/target/generated-resources/xml-javadoc/Before-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/../../Before/Before/target/generated-resources/xml-javadoc/Before-1.0-SNAPSHOT-javadoc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../../Before/Before/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/../../Before/Before/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../../Before/Before/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Before/Before/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/../../Before/Before/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+            <state relative-caret-position="442">
+              <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,17 +86,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Generator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Generator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-              <folding>
-                <element signature="e#1388#1389#0" expanded="true" />
-                <element signature="e#1413#1414#0" expanded="true" />
-                <element signature="e#1462#1463#0" expanded="true" />
-                <element signature="e#1499#1500#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="575">
+              <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,10 +99,13 @@
       <file leaf-file-name="Output.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Output.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
+            <state relative-caret-position="504">
               <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#620#621#0" expanded="false" />
+                <element signature="e#647#648#0" expanded="false" />
+                <element signature="e#811#1374#0" expanded="false" />
+                <element signature="e#1373#1374#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -77,13 +114,9 @@
       <file leaf-file-name="Aggregation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="873">
+            <state relative-caret-position="864">
               <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1126#1314#0" expanded="true" />
-                <element signature="e#1313#1314#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,10 +124,11 @@
       <file leaf-file-name="Intermediate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Intermediate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="942">
+            <state relative-caret-position="774">
               <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1071#1630#0" expanded="false" />
+                <element signature="e#1629#1630#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -103,9 +137,11 @@
       <file leaf-file-name="Operations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/operations/Operations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
+            <state relative-caret-position="1458">
               <caret line="87" column="48" lean-forward="false" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,10 +194,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1857" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -182,7 +218,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -297,39 +332,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="After" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="After" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="After" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -662,7 +668,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -673,8 +679,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32459426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -684,8 +690,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -707,6 +713,48 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Output.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+          <folding>
+            <element signature="e#620#621#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#811#1374#0" expanded="false" />
+            <element signature="e#1373#1374#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Intermediate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+          <folding>
+            <element signature="e#1071#1630#0" expanded="false" />
+            <element signature="e#1629#1630#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/operations/Operations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="87" column="48" lean-forward="false" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -722,7 +770,10 @@
         <state relative-caret-position="576">
           <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#620#621#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#811#1374#0" expanded="false" />
+            <element signature="e#1373#1374#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -731,11 +782,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1126#1314#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -743,7 +790,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="81" column="57" lean-forward="false" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -761,11 +810,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1126#1314#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -783,11 +828,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1126#1314#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +847,8 @@
         <state relative-caret-position="954">
           <caret line="60" column="3" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1071#1630#0" expanded="false" />
+            <element signature="e#1629#1630#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -815,11 +857,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1126#1314#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +866,10 @@
         <state relative-caret-position="126">
           <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#620#621#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#811#1374#0" expanded="false" />
+            <element signature="e#1373#1374#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -927,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,7 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,70 +1057,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="e#1388#1389#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Output.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
+        <state relative-caret-position="504">
           <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#620#621#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#811#1374#0" expanded="false" />
+            <element signature="e#1373#1374#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/operations/Operations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
+        <state relative-caret-position="1458">
           <caret line="87" column="48" lean-forward="false" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Intermediate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="942">
+        <state relative-caret-position="774">
           <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1071#1630#0" expanded="false" />
+            <element signature="e#1629#1630#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
+        <state relative-caret-position="864">
           <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1126#1314#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+        <state relative-caret-position="442">
+          <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

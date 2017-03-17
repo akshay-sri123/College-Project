@@ -2,6 +2,10 @@ package com.Self.Before.other;
 
 public class AdInfo
 {
+	public AdInfo()
+	{
+	}
+
 	public String publisher;
 	public String advertiser;
 	public String location;

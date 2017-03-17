@@ -6,10 +6,15 @@ import java.util.List;
 import java.util.Map;
 
 public class Aggregator {
-    protected final String[] keys;
-    protected final String[] metrics;
-    private final int id;
-    private Map<List, List> aggMap = new HashMap<>();
+    public Aggregator()
+    {
+    }
+
+    public String[] keys;
+    public String[] metrics;
+    public int id;
+    public Map<List, List> aggMap = new HashMap<>();
+
 
     public Aggregator(String[] keys, String[] metrics, int id) {
         this.keys = keys;
@@ -35,8 +40,8 @@ public class Aggregator {
   	2->impressions
   	3->frequency
   	 */
-        vals.set(0, (Double) vals.get(0) + adInfo.getCost());
-        vals.set(1, (Integer) vals.get(1) + adInfo.getImpressions());
+        vals.set(0, (Long) vals.get(0) + adInfo.getCost());
+        vals.set(1, (Long) vals.get(1) + adInfo.getImpressions());
         vals.set(2, (Integer) vals.get(2) + (adInfo.isClicks() ? 1 : 0));
         vals.set(3, (Integer) vals.get(3) + 1);
     }

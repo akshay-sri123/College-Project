@@ -1,6 +1,11 @@
 package com.Self.Before.other;
 
 public class IdFactory {
+
+    public IdFactory()
+    {
+    }
+
     public String[] getKey(int id) {
         String[] keys = null;
         if (id == 1) {
