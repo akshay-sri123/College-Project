@@ -9,7 +9,7 @@ import com.datatorrent.api.DefaultOutputPort;
 import com.datatorrent.api.InputOperator;
 import com.datatorrent.common.util.BaseOperator;
 
-public class Intermediate extends BaseOperator implements InputOperator
+public class Intermediate extends BaseOperator
 {
 	public RowMeta rowMeta;
 	public AggregationMetrics metrics;
@@ -52,8 +52,4 @@ public class Intermediate extends BaseOperator implements InputOperator
 			outputPort.emit(entryField);
 		}
 	};
-	
-	public void emitTuples()
-	{
-	}
 }

@@ -35,7 +35,7 @@ public class  Application implements StreamingApplication
   
     String keys[] = {"publisher"};
     String vals[] = {"cost"};
-    AggregationMetrics metrics = new AggregationMetrics(keys,vals, AggregationTypes.MAX);
+    AggregationMetrics metrics = new AggregationMetrics(keys,vals, AggregationTypes.SUM);
     
     AggregationHelper helper = new AggregationHelper();
     AggregationSchema schema = null;
@@ -53,7 +53,7 @@ public class  Application implements StreamingApplication
     Intermediate intermediate = dag.addOperator("Converter", new Intermediate(rowMeta,metrics,schema));
 
     Aggregation aggregation = dag.addOperator("Aggregation", new Aggregation(metrics, schema));
-    
+
     ConsoleOutputOperator consoleOutputOperator = dag.addOperator("Console", new ConsoleOutputOperator());
 
     dag.addStream("Input --> Encoding", generator.outputPort, intermediate.inputPort);

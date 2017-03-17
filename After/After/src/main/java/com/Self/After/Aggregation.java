@@ -13,16 +13,16 @@ import com.Self.After.row.Row;
 
 import com.datatorrent.api.DefaultInputPort;
 import com.datatorrent.api.DefaultOutputPort;
-import com.datatorrent.api.InputOperator;
 import com.datatorrent.common.util.BaseOperator;
 
-public class Aggregation extends BaseOperator implements InputOperator
+public class Aggregation extends BaseOperator
 {
 	public AggregationMetrics metrics;
 	public AggregationSchema schema;
 	public Map<Row, Row> resultMap = new HashMap<>();
 
 	public Operations operations = new Operations();
+
 
 
 	public Aggregation()
@@ -45,28 +45,26 @@ public class Aggregation extends BaseOperator implements InputOperator
 		{
 			resultMap = operations.aggOperations(entryField, metrics, schema, resultMap);
 
-			for(Map.Entry<Row, Row> entry : resultMap.entrySet())
-			{
-				AdInfo adInfo = new AdInfo();
-				try {
-					adInfo = (AdInfo) coder.decoder(schema.keySchema,entry.getKey(), adInfo);
-					adInfo = (AdInfo) coder.decoder(schema.valueSchema,entry.getValue(), adInfo);
-				} catch (NoSuchFieldException e) {
-					e.printStackTrace();
-				} catch (IllegalAccessException e) {
-					e.printStackTrace();
-				}
 
-				outputPort.emit(adInfo.toString());
-
-			}
 		}
 	};
 
-
-	public void emitTuples()
+	@Override
+	public void endWindow()
 	{
-
+		for(Map.Entry<Row, Row> entry : resultMap.entrySet())
+		{
+			AdInfo adInfo = new AdInfo();
+			try {
+				adInfo = (AdInfo) coder.decoder(schema.keySchema,entry.getKey(), adInfo);
+				adInfo = (AdInfo) coder.decoder(schema.valueSchema,entry.getValue(), adInfo);
+			} catch (NoSuchFieldException e) {
+				e.printStackTrace();
+			} catch (IllegalAccessException e) {
+				e.printStackTrace();
+			}
+			outputPort.emit(adInfo.toString());
+		}
+		super.endWindow();
 	}
-
 }

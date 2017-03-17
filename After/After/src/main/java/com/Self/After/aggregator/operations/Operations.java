@@ -58,11 +58,42 @@ public class Operations
 					resultMap.put(entryField.getKeyRow(), entryField.getValRow());
 				}
 				break;
+
 			case COUNT:
+				if(resultMap.containsKey(entryField.getKeyRow()))
+				{
+					valRow = resultMap.get(entryField.getKeyRow());
+					long currentMapVal = rowValueFunctions.readLong(valRow, schema.valueSchema);
+
+					currentMapVal += 1;
+
+					valRow = rowValueFunctions.updateLong(resultMap.get(entryField.getKeyRow()), schema.valueSchema, currentMapVal);
+					resultMap.put(entryField.getKeyRow(), valRow);
+				}
+				else
+				{
+					long count = 1;
+					valRow = rowValueFunctions.updateLong(resultMap.get(entryField.getKeyRow()), schema.valueSchema, count);
+					resultMap.put(entryField.getKeyRow(), valRow);
+				}
 				break;
+
 			case SUM:
-				break;
-			case AVG:
+				if(resultMap.containsKey(entryField.getKeyRow()))
+				{
+					long currentVal = rowValueFunctions.readLong(entryField.getValRow(), schema.valueSchema);
+					valRow = resultMap.get(entryField.getKeyRow());
+					long currentMapVal = rowValueFunctions.readLong(valRow, schema.valueSchema);
+
+					long sum = currentVal + currentMapVal;
+
+					valRow = rowValueFunctions.updateLong(resultMap.get(entryField.getKeyRow()), schema.valueSchema, sum);
+					resultMap.put(entryField.getKeyRow(), valRow);
+				}
+					else
+				{
+					resultMap.put(entryField.getKeyRow(), entryField.getValRow());
+				}
 				break;
 		}
 		return resultMap;

@@ -11,28 +11,38 @@ public class Generator extends BaseOperator implements InputOperator
 	private static RandomEnumGenerator<Advertiser> randomAdvertiser = new RandomEnumGenerator<Advertiser>(Advertiser.class);
 	private static RandomEnumGenerator<Location> randomLocation = new RandomEnumGenerator<Location>(Location.class);
 	private static RandomValueGenerator randomValueGenerator = new RandomValueGenerator();
-	
+	private int recordLimit = 10;
 	public final DefaultOutputPort<AdInfo> outputPort = new DefaultOutputPort<>();
+	private int available;
 
 	public Generator(){}
 
 	@Override
+	public void beginWindow(long windowId)
+	{
+		super.beginWindow(windowId);
+		available = recordLimit;
+	}
+
+	@Override
 	public void emitTuples()
 	{
-		long seconds = 60 ;
-		
-		long startTime = System.currentTimeMillis();
-		long currentTime = 0, timeDifference = 0;
-		
-		do{
+		if (available > 0) {
 			AdInfo adInfo = new AdInfo(randomPublisher.random().toString(), randomAdvertiser.random().toString(), randomLocation.random().toString(),
-					randomValueGenerator.randomCost(), randomValueGenerator.randomImpressions(), randomValueGenerator.randomClicks());
-			
+				randomValueGenerator.randomCost(), randomValueGenerator.randomImpressions(), randomValueGenerator.randomClicks());
+
 			outputPort.emit(adInfo);
-			
-			currentTime = System.currentTimeMillis();
-			timeDifference = currentTime - startTime;
-		} while(timeDifference < (5 * 1000));
-		
+			available--;
+		}
+	}
+
+	public int getRecordLimit()
+	{
+		return recordLimit;
+	}
+
+	public void setRecordLimit(int recordLimit)
+	{
+		this.recordLimit = recordLimit;
 	}
 }
