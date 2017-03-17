@@ -15,56 +15,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/Intermediate.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/Intermediate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/Output$1.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/Output$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/Output.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/Output.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/meta/AggregationHelper$1.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/meta/AggregationHelper$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/meta/AggregationHelper.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/meta/AggregationHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/meta/AggregationMetrics.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/meta/AggregationMetrics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/meta/AggregationSchema.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/meta/AggregationSchema.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/meta/AggregationTypes.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/meta/AggregationTypes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/operations/Operations$1.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/operations/Operations$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/operations/Operations.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/aggregator/operations/Operations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/other/Advertiser.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/other/Advertiser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/other/Location.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/other/Location.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/other/Publisher.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/other/Publisher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/platform/Platform$1.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/platform/Platform$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/platform/Platform.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/platform/Platform.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/row/ByteLength$1.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/row/ByteLength$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/row/ByteLength.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/row/ByteLength.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/row/DataType.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/row/DataType.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/row/EntryField.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/row/EntryField.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/row/FieldInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/row/FieldInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/row/PojoBasedCoder$1.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/row/PojoBasedCoder$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/row/PojoBasedCoder.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/row/PojoBasedCoder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/row/Row.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/row/Row.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/row/RowMeta.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/row/RowMeta.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Self/After/row/RowValueFunctions.class" afterPath="$PROJECT_DIR$/target/classes/com/Self/After/row/RowValueFunctions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/After.iml" afterPath="$PROJECT_DIR$/After.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/Application.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/Generator.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/Generator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/Intermediate.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/Intermediate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/Output.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/Output.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/meta/AggregationHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/meta/AggregationHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/meta/AggregationMetrics.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/meta/AggregationMetrics.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/meta/AggregationSchema.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/meta/AggregationSchema.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/operations/Operations.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/operations/Operations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/other/RandomEnumGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/other/RandomEnumGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/platform/Platform.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/platform/Platform.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/row/ByteLength.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/row/ByteLength.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/row/EntryField.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/row/EntryField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/row/FieldInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/row/FieldInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/row/PojoBasedCoder.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/row/PojoBasedCoder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/row/Row.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/row/Row.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/row/RowMeta.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/row/RowMeta.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Self/After/row/RowValueFunctions.java" afterPath="$PROJECT_DIR$/src/main/java/com/Self/After/row/RowValueFunctions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/target/antrun/build-main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/After-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/classes/After-1.0-SNAPSHOT-javadoc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/After-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/After-1.0-SNAPSHOT-javadoc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,11 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="61" column="41" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+            <state relative-caret-position="537">
+              <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,11 +56,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aggregation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Output.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Output.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aggregation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+            <state relative-caret-position="396">
+              <caret line="52" column="87" lean-forward="true" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,32 +106,32 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/other/AdInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/row/RowMeta.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/meta/AggregationMetrics.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Self/After/row/EntryField.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/row/ByteLength.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/row/PojoBasedCoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/meta/AggregationSchema.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/row/Row.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/other/RandomEnumGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Self/After/Generator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/Intermediate_v2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/row/RowValueFunctions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/row/FieldInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/platform/Platform.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/meta/AggregationHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/operations/Operations.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Self/After/Intermediate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Self/After/Output.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation_v2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Self/After/Output.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Self/After/Generator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Self/After/Intermediate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Self/After/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Self/After/row/EntryField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/operations/Operations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1537" />
-    <option name="height" value="905" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -178,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -324,7 +298,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
@@ -659,7 +632,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1537" height="905" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -676,7 +649,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18501629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15309973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -704,6 +677,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
@@ -760,8 +753,6 @@
           <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#520#683#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -838,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,13 +852,6 @@
         <state relative-caret-position="54">
           <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/row/EntryField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -954,26 +937,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation_v2.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="694">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/row/EntryField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/aggregator/operations/Operations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="25">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Intermediate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        <state relative-caret-position="411">
+          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -982,38 +984,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Output.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="551">
+          <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#520#683#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation_v2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Aggregation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Self/After/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="61" column="41" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+        <state relative-caret-position="396">
+          <caret line="52" column="87" lean-forward="true" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

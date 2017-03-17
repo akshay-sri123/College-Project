@@ -34,7 +34,7 @@ public class  Application implements StreamingApplication
     rowMeta.addField("clicks", DataType.BOOLEAN);
   
     String keys[] = {"publisher"};
-    String vals[] = {"impressions"};
+    String vals[] = {"cost"};
     AggregationMetrics metrics = new AggregationMetrics(keys,vals, AggregationTypes.MAX);
     
     AggregationHelper helper = new AggregationHelper();
@@ -50,13 +50,12 @@ public class  Application implements StreamingApplication
   
     Generator generator = dag.addOperator("Generator", new Generator());
     
-    Intermediate intermediate = dag.addOperator("Intermediate", new Intermediate(rowMeta,metrics,schema));
+    Intermediate intermediate = dag.addOperator("Converter", new Intermediate(rowMeta,metrics,schema));
 
     Aggregation aggregation = dag.addOperator("Aggregation", new Aggregation(metrics, schema));
-
-
-    ConsoleOutputOperator consoleOutputOperator = dag.addOperator("Console", new ConsoleOutputOperator());
     
+    ConsoleOutputOperator consoleOutputOperator = dag.addOperator("Console", new ConsoleOutputOperator());
+
     dag.addStream("Input --> Encoding", generator.outputPort, intermediate.inputPort);
     dag.addStream("Encoding --> Aggregation", intermediate.outputPort, aggregation.inputPort);
     dag.addStream("Aggregation --> Result", aggregation.outputPort, consoleOutputOperator.input);

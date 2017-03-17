@@ -6,7 +6,9 @@ import java.util.Map;
 import com.Self.After.aggregator.meta.AggregationMetrics;
 import com.Self.After.aggregator.meta.AggregationSchema;
 import com.Self.After.aggregator.operations.Operations;
+import com.Self.After.other.AdInfo;
 import com.Self.After.row.EntryField;
+import com.Self.After.row.PojoBasedCoder;
 import com.Self.After.row.Row;
 
 import com.datatorrent.api.DefaultInputPort;
@@ -22,6 +24,7 @@ public class Aggregation extends BaseOperator implements InputOperator
 
 	public Operations operations = new Operations();
 
+
 	public Aggregation()
 	{
 	}
@@ -32,7 +35,9 @@ public class Aggregation extends BaseOperator implements InputOperator
 		this.schema = schema;
 	}
 
-	public final transient DefaultOutputPort<Map<Row, Row>> outputPort = new DefaultOutputPort<>();
+	public PojoBasedCoder coder = new PojoBasedCoder();
+
+	public final transient DefaultOutputPort<String> outputPort = new DefaultOutputPort<>();
 	public final transient DefaultInputPort<EntryField> inputPort = new DefaultInputPort<EntryField>()
 	{
 		@Override
@@ -40,11 +45,28 @@ public class Aggregation extends BaseOperator implements InputOperator
 		{
 			resultMap = operations.aggOperations(entryField, metrics, schema, resultMap);
 
-			outputPort.emit(resultMap);
+			for(Map.Entry<Row, Row> entry : resultMap.entrySet())
+			{
+				AdInfo adInfo = new AdInfo();
+				try {
+					adInfo = (AdInfo) coder.decoder(schema.keySchema,entry.getKey(), adInfo);
+					adInfo = (AdInfo) coder.decoder(schema.valueSchema,entry.getValue(), adInfo);
+				} catch (NoSuchFieldException e) {
+					e.printStackTrace();
+				} catch (IllegalAccessException e) {
+					e.printStackTrace();
+				}
+
+				outputPort.emit(adInfo.toString());
+
+			}
 		}
 	};
 
 
-	public void emitTuples(){}
+	public void emitTuples()
+	{
+
+	}
 
 }

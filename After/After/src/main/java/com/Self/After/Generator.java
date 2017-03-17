@@ -32,7 +32,7 @@ public class Generator extends BaseOperator implements InputOperator
 			
 			currentTime = System.currentTimeMillis();
 			timeDifference = currentTime - startTime;
-		} while(timeDifference < (seconds * 1000));
+		} while(timeDifference < (5 * 1000));
 		
 	}
 }

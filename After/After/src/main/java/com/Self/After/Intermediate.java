@@ -28,14 +28,15 @@ public class Intermediate extends BaseOperator implements InputOperator
 		this.metrics = metrics;
 		this.schema = schema;
 	}
+	Row keyRow = new Row();
+	Row valRow = new Row();
 
 	public final transient DefaultOutputPort<EntryField> outputPort = new DefaultOutputPort<>();
 	public final transient DefaultInputPort<AdInfo> inputPort = new DefaultInputPort<AdInfo>() {
 		@Override
 		public void process(AdInfo adInfo) {
 
-			Row keyRow = new Row();
-			Row valRow = new Row();
+
 			try {
 				int keyLen = length.getByteLength(schema.keySchema, adInfo);
 				int valLen = length.getByteLength(schema.valueSchema, adInfo);

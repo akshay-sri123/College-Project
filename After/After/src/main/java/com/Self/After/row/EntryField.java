@@ -26,6 +26,12 @@ public class EntryField {
 	public void setValRow(Row valRow) {
 		this.valRow = valRow;
 	}
+
+	public void set(Row keyRow, Row valRow)
+	{
+		this.keyRow = keyRow;
+		this.valRow = valRow;
+	}
 	
 	@Override
 	public String toString() {
