@@ -11,9 +11,13 @@ import java.util.Map;
 public class Operations
 {
 	long max;
+
+	public Operations()
+	{
+	}
+
 	public Map<Row, Row> aggOperations(EntryField entryField, AggregationMetrics metrics, AggregationSchema schema, Map<Row, Row> resultMap)
 	{
-		Row keyRow;
 		Row valRow;
 		RowValueFunctions rowValueFunctions = new RowValueFunctions();
 		switch (metrics.getAggTypes())

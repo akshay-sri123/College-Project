@@ -2,6 +2,8 @@ package com.Self.After.row;
 
 public class ByteLength
 {
+	public ByteLength(){}
+
 	public int getByteLength(RowMeta rowMeta, Object o) throws NoSuchFieldException, IllegalAccessException {
 		int len = 0;
 		GetFieldValues getFieldValues = new GetFieldValues();

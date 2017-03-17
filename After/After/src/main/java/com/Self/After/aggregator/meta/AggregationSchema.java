@@ -7,7 +7,8 @@ public class AggregationSchema {
 	public int id;
 	public RowMeta keySchema;
 	public RowMeta valueSchema;
-	
+
+
 	public AggregationSchema() {
 		keySchema = new RowMeta();
 		valueSchema = new RowMeta();

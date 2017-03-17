@@ -9,6 +9,8 @@ public class RowMeta {
 	public List<FieldInfo> fieldInfoList = new ArrayList<>();
 	private Map<String, DataType> nameToTypeMap = new HashMap<>();
 
+	public RowMeta(){}
+
 	public void addField(String name, DataType dataType) {
 
 		FieldInfo fieldInfo = new FieldInfo();

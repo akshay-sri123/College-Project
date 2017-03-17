@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 public class Row {
 	public byte[] dataBytes;
-	
+
+	public Row(){}
+
 	public byte[] getDataBytes() {
 		return dataBytes;
 	}

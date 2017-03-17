@@ -13,7 +13,9 @@ public class Generator extends BaseOperator implements InputOperator
 	private static RandomValueGenerator randomValueGenerator = new RandomValueGenerator();
 	
 	public final DefaultOutputPort<AdInfo> outputPort = new DefaultOutputPort<>();
-	
+
+	public Generator(){}
+
 	@Override
 	public void emitTuples()
 	{

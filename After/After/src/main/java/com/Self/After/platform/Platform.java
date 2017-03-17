@@ -11,6 +11,10 @@ import java.nio.ByteBuffer;
 public final class Platform
 {
 
+  public Platform()
+  {
+  }
+
   private static final Unsafe _UNSAFE;
 
   public static final int BOOLEAN_ARRAY_OFFSET;

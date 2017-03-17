@@ -3,21 +3,19 @@
  */
 package com.Self.After;
 
+import org.apache.hadoop.conf.Configuration;
+
 import com.Self.After.aggregator.meta.AggregationHelper;
 import com.Self.After.aggregator.meta.AggregationMetrics;
 import com.Self.After.aggregator.meta.AggregationSchema;
 import com.Self.After.aggregator.meta.AggregationTypes;
 import com.Self.After.row.DataType;
 import com.Self.After.row.RowMeta;
-import org.apache.hadoop.conf.Configuration;
 
-import com.datatorrent.api.annotation.ApplicationAnnotation;
-import com.datatorrent.api.StreamingApplication;
 import com.datatorrent.api.DAG;
-import com.datatorrent.api.DAG.Locality;
+import com.datatorrent.api.StreamingApplication;
+import com.datatorrent.api.annotation.ApplicationAnnotation;
 import com.datatorrent.lib.io.ConsoleOutputOperator;
-
-import java.util.List;
 
 @ApplicationAnnotation(name="After")
 public class  Application implements StreamingApplication
@@ -52,20 +50,15 @@ public class  Application implements StreamingApplication
   
     Generator generator = dag.addOperator("Generator", new Generator());
     
-    Intermediate intermediate = dag.addOperator("Intermediate", new Intermediate(rowMeta, metrics, schema));
-    
-//    Aggregation aggregation = dag.addOperator("Aggregation", new Aggregation(metrics,schema));
-//
-//    Output output = dag.addOperator("Output", new Output(schema));
-    
+    Intermediate intermediate = dag.addOperator("Intermediate", new Intermediate(rowMeta,metrics,schema));
+
+    Aggregation aggregation = dag.addOperator("Aggregation", new Aggregation(metrics, schema));
+
+
     ConsoleOutputOperator consoleOutputOperator = dag.addOperator("Console", new ConsoleOutputOperator());
     
-//    dag.addStream("First", generator.outputPort, intermediate.inputPort);
-//    dag.addStream("Second", intermediate.outputPort, aggregation.inputPort);
-//    dag.addStream("Third", aggregation.outputPort, output.inputPort);
-//    dag.addStream("Fourth", output.outputPort, consoleOutputOperator.input);
-    dag.addStream("First", generator.outputPort, intermediate.inputPort);
-    dag.addStream("Second", intermediate.outputPort, consoleOutputOperator.input);
-  
+    dag.addStream("Input --> Encoding", generator.outputPort, intermediate.inputPort);
+    dag.addStream("Encoding --> Aggregation", intermediate.outputPort, aggregation.inputPort);
+    dag.addStream("Aggregation --> Result", aggregation.outputPort, consoleOutputOperator.input);
   }
 }

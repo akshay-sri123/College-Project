@@ -3,7 +3,11 @@ package com.Self.After.aggregator.meta;
 import com.Self.After.row.RowMeta;
 
 public class AggregationHelper {
-	
+
+	public AggregationHelper()
+	{
+	}
+
 	public AggregationSchema createAggregationSchema(RowMeta originalSchema, AggregationMetrics aggregationMetrics) throws NoSuchFieldException, IllegalAccessException {
 		
 			

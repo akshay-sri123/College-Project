@@ -7,7 +7,9 @@ public class AggregationMetrics
 	String[] keys;
 	String[] vals;
 	AggregationTypes aggTypes;
-	
+
+	public AggregationMetrics(){}
+
 	public AggregationMetrics(String[] keys, String[] vals, AggregationTypes aggTypes) {
 		this.keys = keys;
 		this.vals = vals;

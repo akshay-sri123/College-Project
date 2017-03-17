@@ -4,7 +4,9 @@ package com.Self.After.row;
 import com.Self.After.platform.Platform;
 
 public class PojoBasedCoder implements Coder{
-	
+
+	public PojoBasedCoder(){}
+
 	VariableFunctions variableFunctions = new VariableFunctions();
 	ByteLength length = new ByteLength();
 

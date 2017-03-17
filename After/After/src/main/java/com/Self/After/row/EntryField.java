@@ -3,7 +3,9 @@ package com.Self.After.row;
 public class EntryField {
 	Row keyRow;
 	Row valRow;
-	
+
+	public EntryField(){}
+
 	public EntryField(Row keyRow, Row valRow) {
 		this.keyRow = keyRow;
 		this.valRow = valRow;

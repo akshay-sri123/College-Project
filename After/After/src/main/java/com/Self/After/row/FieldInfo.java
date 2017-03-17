@@ -3,7 +3,11 @@ package com.Self.After.row;
 public class FieldInfo {
 	public String name;
 	public DataType dataType;
-	
+
+	public FieldInfo()
+	{
+	}
+
 	public String getName() {
 		return name;
 	}

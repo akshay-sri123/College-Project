@@ -11,51 +11,46 @@ import com.datatorrent.common.util.BaseOperator;
 
 public class Intermediate extends BaseOperator implements InputOperator
 {
-	RowMeta rowMeta;
-	AggregationMetrics metrics;
-	AggregationSchema schema;
+	public RowMeta rowMeta;
+	public AggregationMetrics metrics;
+	public AggregationSchema schema;
 
-	EntryField entryField;
-	
-	
+	public EntryField entryField;
+
+	public ByteLength length = new ByteLength();
+	public PojoBasedCoder coder = new PojoBasedCoder();
+
+	public Intermediate(){}
+
 	public Intermediate(RowMeta rowMeta, AggregationMetrics metrics, AggregationSchema schema)
 	{
 		this.rowMeta = rowMeta;
 		this.metrics = metrics;
 		this.schema = schema;
 	}
-	public final DefaultOutputPort<String> outputPort = new DefaultOutputPort<>();
-	public final DefaultInputPort<AdInfo> inputPort = new DefaultInputPort<AdInfo>() {
+
+	public final transient DefaultOutputPort<EntryField> outputPort = new DefaultOutputPort<>();
+	public final transient DefaultInputPort<AdInfo> inputPort = new DefaultInputPort<AdInfo>() {
 		@Override
 		public void process(AdInfo adInfo) {
-			ByteLength length = new ByteLength();
-			PojoBasedCoder coder = new PojoBasedCoder();
-			
-			
-			int keyLen = 0;
+
+			Row keyRow = new Row();
+			Row valRow = new Row();
 			try {
-				keyLen = length.getByteLength(schema.keySchema, adInfo);
+				int keyLen = length.getByteLength(schema.keySchema, adInfo);
 				int valLen = length.getByteLength(schema.valueSchema, adInfo);
-				
-				Row keyRow = new Row();
-				Row valRow = new Row();
-				
 				keyRow.dataBytes = new byte[keyLen];
 				keyRow = coder.encoder(schema.keySchema, adInfo);
-				
+
 				valRow.dataBytes = new byte[valLen];
 				valRow = coder.encoder(schema.valueSchema, adInfo);
-				entryField = new EntryField(keyRow,valRow);
-				
-				outputPort.emit(adInfo.toString());
-				
 			} catch (Exception e) {
 				e.printStackTrace();}
+
+			entryField = new EntryField(keyRow,valRow);
+			outputPort.emit(entryField);
 		}
 	};
-	
-//	public final DefaultOutputPort<EntryField> outputPort = new DefaultOutputPort<>();
-	
 	
 	public void emitTuples()
 	{
